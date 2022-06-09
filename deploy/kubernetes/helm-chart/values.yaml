@@ -71,7 +71,7 @@ catalogue:
             memory: 100Mi
 
 frontend:
-    replicas: 10
+    replicas: 1
     image:
         repo: weaveworksdemos/front-end
         tag: 0.3.12
