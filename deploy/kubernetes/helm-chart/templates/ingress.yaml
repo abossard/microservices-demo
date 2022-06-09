@@ -18,7 +18,7 @@ spec:
         path: /
         pathType: Prefix
     {{- if .Values.host }}
-    host: {{ template "host" . }}
+    host: {{ .Values.host }}
     {{- end }}
   {{- if .Values.ingress.tlsSecretName }}
   tls:
